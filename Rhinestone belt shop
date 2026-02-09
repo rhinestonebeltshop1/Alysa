@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rhinestone Belt Showcase</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #0f0f0f;
+        color: #ffffff;
+    }
+
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 40px;
+        gap: 40px;
+    }
+
+    .hero img {
+        max-width: 420px;
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.7);
+    }
+
+    .hero-content {
+        max-width: 420px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #cccccc;
+        margin-bottom: 25px;
+    }
+
+    .hero-content a {
+        display: inline-block;
+        padding: 14px 28px;
+        background: linear-gradient(135deg, #d4af37, #ffd700);
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 30px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hero-content a:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        font-size: 14px;
+        color: #888;
+    }
+
+    footer a {
+        color: #d4af37;
+        text-decoration: none;
+    }
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <img src="your-image.jpg" alt="Skull Rhinestone Belt from Rhinestone Belt Shop">
+    <div class="hero-content">
+        <h1>Bold. Fearless. Unforgettable.</h1>
+        <p>
+            Premium rhinestone belts made for statement looks, confidence, and edge.
+            Discover bold designs at Rhinestone Belt Shop.
+        </p>
+        <a href="https://rhinestonebeltshop.com" target="_blank" rel="noopener">
+            Visit RhinestoneBeltShop.com
+        </a>
+    </div>
+</section>
+
+<footer>
+    © 2026 <a href="https://rhinestonebeltshop.com" target="_blank" rel="noopener">
+    RhinestoneBeltShop.com</a>. All rights reserved.
+</footer>
+
+</body>
+</html>
